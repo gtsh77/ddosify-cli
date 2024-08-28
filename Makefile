@@ -5,7 +5,7 @@ RELEASE=$(shell git describe --always --tags)
 BUILD_TIME?=$(shell date '+%F_%T%z')
 
 OUT_DIR = ./bin
-APP = ddosify
+APP = ddosify-cli
 APP_MAIN = ./cmd/$(APP)
 
 .PHONY: default

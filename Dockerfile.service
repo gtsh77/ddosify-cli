@@ -14,8 +14,8 @@ FROM gtsh77workshop/golang:1.21 as service
 
 WORKDIR /app
 
-COPY --from=builder /go/src/service/bin/ddosify_linux_amd64 ./ddosify_linux_amd64
+COPY --from=builder /go/src/service/bin/ddosify-cli_linux_amd64 ./ddosify-cli_linux_amd64
 
 CMD chmod 755 -R service
 
-ENTRYPOINT ["/app/ddosify_linux_amd64"]
+ENTRYPOINT ["/app/ddosify-cli_linux_amd64"]
