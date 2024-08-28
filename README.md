@@ -1,26 +1,4 @@
-<h1 align="center">
-    <img src="https://raw.githubusercontent.com/ddosify/ddosify/master/assets/ddosify-logo-db.svg#gh-dark-mode-only" alt="Ddosify logo dark" width="336px" /><br />
-    <img src="https://raw.githubusercontent.com/ddosify/ddosify/master/assets/ddosify-logo-wb.svg#gh-light-mode-only" alt="Ddosify logo light" width="336px" /><br />
-    Ddosify - High-performance load testing tool
-</h1>
-
-<p align="center">
-    <a href="https://github.com/ddosify/ddosify/releases" target="_blank"><img src="https://img.shields.io/github/v/release/ddosify/ddosify?style=for-the-badge&logo=github&color=orange" alt="ddosify latest version" /></a>&nbsp;
-    <a href="https://github.com/ddosify/ddosify/actions/workflows/test.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/ddosify/ddosify/test.yml?branch=master&style=for-the-badge&logo=github" alt="ddosify build result" /></a>&nbsp;
-    <a href="https://pkg.go.dev/gitlab.com/gtsh77-shared/ddosify-cli" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/ddosify/ddosify?style=for-the-badge&logo=go" alt="golang version" /></a>&nbsp;
-    <a href="https://app.codecov.io/gh/ddosify/ddosify" target="_blank"><img src="https://img.shields.io/codecov/c/github/ddosify/ddosify?style=for-the-badge&logo=codecov" alt="go coverage" /></a>&nbsp;
-    <a href="https://goreportcard.com/report/github.com/ddosify/ddosify" target="_blank"><img src="https://goreportcard.com/badge/github.com/ddosify/ddosify?style=for-the-badge&logo=go" alt="go report" /></a>&nbsp;
-    <a href="https://github.com/ddosify/ddosify/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/LICENSE-AGPL--3.0-orange?style=for-the-badge&logo=none" alt="ddosify license" /></a>
-    <a href="https://discord.gg/9KdnrSUZQg" target="_blank"><img src="https://img.shields.io/discord/898523141788287017?style=for-the-badge&logo=discord&label=DISCORD" alt="ddosify discord server" /></a>
-    <a href="https://hub.docker.com/r/ddosify/ddosify" target="_blank"><img src="https://img.shields.io/docker/v/ddosify/ddosify?style=for-the-badge&logo=docker&label=docker&sort=semver" alt="ddosify docker image" /></a>
-</p>
-
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/ddosify/ddosify/master/assets/ddosify-quick-start.gif" alt="Ddosify - High-performance load testing tool quick start" />
-</p>
-
-## FORK DDOSIFY (CLI) [v0.16.7] (26 Apr 2023)
+## FORK BASED ON DDOSIFY (CLI) [v0.16.7] (26 Apr 2023)
 ### INFO
 
 #### Multi platform binaries
@@ -28,12 +6,12 @@
 
 ### usage local on linux amd64 (use bin based on your arch)
 ```
-./bin/ddosify_linux_amd64 -n 5 -d 1 -T 1 -t https://google.com -m GET
+./bin/ddosify-cli_linux_amd64 -n 5 -d 1 -T 1 -t https://google.com -m GET
 ```
 
 ### usage docker
 ```
-docker run --rm -it docker.io/gtsh77workshop/ddosify:v0.16.7 -n 5 -d 1 -T 1 -t https://google.com -m GET
+docker run --rm -it docker.io/gtsh77workshop/ddosify-cli:v0.16.8 -n 5 -d 1 -T 1 -t https://google.com -m GET
 ```
 
 ### DEV INFO
@@ -62,6 +40,10 @@ make image
 ```
 
 ## ORIGINAL README
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ddosify/ddosify/master/assets/ddosify-quick-start.gif" alt="Ddosify - High-performance load testing tool quick start" />
+</p>
 
 ## Features
 
