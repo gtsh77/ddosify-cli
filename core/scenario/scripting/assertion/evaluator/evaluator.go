@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/ast"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/ast"
 )
 
 func Eval(node ast.Node, env *AssertEnv, receivedMap map[string]interface{}) (interface{}, error) {

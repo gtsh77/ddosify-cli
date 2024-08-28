@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"go.ddosify.com/ddosify/core/proxy"
-	"go.ddosify.com/ddosify/core/report"
-	"go.ddosify.com/ddosify/core/scenario"
-	"go.ddosify.com/ddosify/core/scenario/data"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/proxy"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/report"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/data"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 func aggregate(result *Result, scr *types.ScenarioResult, samplingCount map[uint16]map[string]int, samplingRate int) {

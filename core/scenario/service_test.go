@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	"go.ddosify.com/ddosify/core/scenario/requester"
-	"go.ddosify.com/ddosify/core/scenario/scripting/injection"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/requester"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/injection"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 type MockHttpRequester struct {

@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 const OutputTypeStdoutJson = "stdout-json"

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/token"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/token"
 )
 
 // The base Node interface

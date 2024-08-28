@@ -34,8 +34,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.ddosify.com/ddosify/core/proxy"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/proxy"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 const ConfigTypeJson = "jsonReader"

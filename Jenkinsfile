@@ -41,7 +41,7 @@ fi'''
           sh 'go run --race main.go -config config/config_testdata/race_configs/step_assertions_stdout_json.json'
           sh 'go run --race main.go -config config/config_testdata/race_configs/capture_envs.json'
           sh 'go run --race main.go -config config/config_testdata/race_configs/global_envs.json'
-          sh 'go test -race -run ^TestDynamicVariableRace$ go.ddosify.com/ddosify/core/scenario/scripting/injection'
+          sh 'go test -race -run ^TestDynamicVariableRace$ gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/injection'
         }
       }
     }

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/ast"
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/lexer"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/ast"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/lexer"
 )
 
 func TestIdentifierExpression(t *testing.T) {

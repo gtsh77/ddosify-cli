@@ -31,11 +31,12 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/util"
+
 	"github.com/enescakir/emoji"
 	"github.com/fatih/color"
 	"github.com/mattn/go-colorable"
-	"go.ddosify.com/ddosify/core/types"
-	"go.ddosify.com/ddosify/core/util"
 )
 
 const OutputTypeStdout = "stdout"

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 var AvailableConfigReader = make(map[string]ConfigReader)

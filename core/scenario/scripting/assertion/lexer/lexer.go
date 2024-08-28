@@ -3,7 +3,7 @@ package lexer
 import (
 	"strings"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/token"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/token"
 )
 
 type Lexer struct {

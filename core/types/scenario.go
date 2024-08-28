@@ -31,8 +31,9 @@ import (
 	"strconv"
 	"strings"
 
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/util"
+
 	validator "github.com/asaskevich/govalidator"
-	"go.ddosify.com/ddosify/core/util"
 )
 
 // Constants for Scenario field values

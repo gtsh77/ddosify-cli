@@ -33,11 +33,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.ddosify.com/ddosify/core/scenario/requester"
-	"go.ddosify.com/ddosify/core/scenario/scripting/injection"
-	"go.ddosify.com/ddosify/core/types"
-	"go.ddosify.com/ddosify/core/types/regex"
-	"go.ddosify.com/ddosify/core/util"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/requester"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/injection"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types/regex"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/util"
 )
 
 // ScenarioService encapsulates proxy/scenario/requester information and runs the scenario.

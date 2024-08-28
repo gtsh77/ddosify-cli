@@ -14,7 +14,7 @@ import (
 	"time"
 	"unsafe"
 
-	"go.ddosify.com/ddosify/core/types/regex"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types/regex"
 )
 
 type BodyPiece struct {

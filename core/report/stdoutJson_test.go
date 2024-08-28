@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 func TestInitStdoutJson(t *testing.T) {

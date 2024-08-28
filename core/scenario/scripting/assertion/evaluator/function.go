@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/extraction"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/extraction"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 var less_than = func(variable int64, limit int64) bool {

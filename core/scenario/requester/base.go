@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/injection"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/injection"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 // Requester is the interface that abstracts different protocols' request sending implementations.

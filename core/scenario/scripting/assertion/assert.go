@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/evaluator"
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/lexer"
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/parser"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/evaluator"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/lexer"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/parser"
 )
 
 type AssertionError struct { // UnWrappable

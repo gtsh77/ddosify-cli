@@ -7,7 +7,7 @@
 <p align="center">
     <a href="https://github.com/ddosify/ddosify/releases" target="_blank"><img src="https://img.shields.io/github/v/release/ddosify/ddosify?style=for-the-badge&logo=github&color=orange" alt="ddosify latest version" /></a>&nbsp;
     <a href="https://github.com/ddosify/ddosify/actions/workflows/test.yml" target="_blank"><img src="https://img.shields.io/github/actions/workflow/status/ddosify/ddosify/test.yml?branch=master&style=for-the-badge&logo=github" alt="ddosify build result" /></a>&nbsp;
-    <a href="https://pkg.go.dev/go.ddosify.com/ddosify" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/ddosify/ddosify?style=for-the-badge&logo=go" alt="golang version" /></a>&nbsp;
+    <a href="https://pkg.go.dev/gitlab.com/gtsh77-shared/ddosify-cli" target="_blank"><img src="https://img.shields.io/github/go-mod/go-version/ddosify/ddosify?style=for-the-badge&logo=go" alt="golang version" /></a>&nbsp;
     <a href="https://app.codecov.io/gh/ddosify/ddosify" target="_blank"><img src="https://img.shields.io/codecov/c/github/ddosify/ddosify?style=for-the-badge&logo=codecov" alt="go coverage" /></a>&nbsp;
     <a href="https://goreportcard.com/report/github.com/ddosify/ddosify" target="_blank"><img src="https://goreportcard.com/badge/github.com/ddosify/ddosify?style=for-the-badge&logo=go" alt="go report" /></a>&nbsp;
     <a href="https://github.com/ddosify/ddosify/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/LICENSE-AGPL--3.0-orange?style=for-the-badge&logo=none" alt="ddosify license" /></a>
@@ -20,6 +20,48 @@
 <img src="https://raw.githubusercontent.com/ddosify/ddosify/master/assets/ddosify-quick-start.gif" alt="Ddosify - High-performance load testing tool quick start" />
 </p>
 
+## FORK DDOSIFY (CLI) [v0.16.7] (26 Apr 2023)
+### INFO
+
+#### Multi platform binaries
+[LIST](bin)
+
+### usage local on linux amd64 (use bin based on your arch)
+```
+./bin/ddosify_linux_amd64 -n 5 -d 1 -T 1 -t https://google.com -m GET
+```
+
+### usage docker
+```
+docker run --rm -it docker.io/gtsh77workshop/ddosify:v0.16.7 -n 5 -d 1 -T 1 -t https://google.com -m GET
+```
+
+### DEV INFO
+
+#### build requirements
+go v1.21+, docker compose v2.x
+
+#### compile amd64
+```
+make
+```
+
+#### compile amd32/64, win32/64, freebsd32/64, macos
+```
+make release
+```
+
+#### run autotests (opt)
+```
+make test
+```
+
+#### make docker image (opt)
+```
+make image
+```
+
+## ORIGINAL README
 
 ## Features
 
@@ -112,7 +154,7 @@ curl -sSfL https://raw.githubusercontent.com/ddosify/ddosify/master/scripts/inst
 *Minimum supported Go version is 1.18*
 
 ```bash
-go install -v go.ddosify.com/ddosify@latest
+go install -v gitlab.com/gtsh77-shared/ddosify-cli@latest
 ```
 
 ## Easy Start

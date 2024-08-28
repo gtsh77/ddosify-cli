@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/token"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/token"
 )
 
 func TestNextToken(t *testing.T) {

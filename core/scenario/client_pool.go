@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"go.ddosify.com/ddosify/core/util"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/util"
 )
 
 // Factory is a function to create new connections.

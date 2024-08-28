@@ -32,9 +32,9 @@ import (
 	"strings"
 	"testing"
 
-	"go.ddosify.com/ddosify/core/proxy"
-	"go.ddosify.com/ddosify/core/report"
-	"go.ddosify.com/ddosify/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/proxy"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/report"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
 )
 
 func TestCreateHammerDefaultValues(t *testing.T) {

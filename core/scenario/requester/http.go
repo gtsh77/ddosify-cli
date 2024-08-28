@@ -38,12 +38,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion"
-	"go.ddosify.com/ddosify/core/scenario/scripting/assertion/evaluator"
-	"go.ddosify.com/ddosify/core/scenario/scripting/extraction"
-	"go.ddosify.com/ddosify/core/scenario/scripting/injection"
-	"go.ddosify.com/ddosify/core/types"
-	"go.ddosify.com/ddosify/core/types/regex"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/assertion/evaluator"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/extraction"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/scenario/scripting/injection"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types/regex"
+
 	"golang.org/x/net/http2"
 )
 

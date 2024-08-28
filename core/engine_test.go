@@ -40,11 +40,12 @@ import (
 	"testing"
 	"time"
 
+	"gitlab.com/gtsh77-shared/ddosify-cli/config"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/proxy"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/report"
+	"gitlab.com/gtsh77-shared/ddosify-cli/core/types"
+
 	"github.com/ddosify/go-faker/faker"
-	"go.ddosify.com/ddosify/config"
-	"go.ddosify.com/ddosify/core/proxy"
-	"go.ddosify.com/ddosify/core/report"
-	"go.ddosify.com/ddosify/core/types"
 )
 
 //TODO: Engine stop channel close order test
